@@ -41,7 +41,7 @@ export default function HomePage() {
           </span>
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold mb-6 leading-[1.1] tracking-tight">
             Greenage<br />
-            <span className="text-rose-200">Toastmasters Club</span>
+            <span className="text-white">Toastmasters Club</span>
           </h1>
           <p className="text-lg md:text-xl text-rose-100 max-w-xl mx-auto mb-10 leading-relaxed">
             Where leaders are made and communicators are built.
