@@ -2,25 +2,80 @@
   {
     "id": 1,
     "category": "Competition",
-    "title": "Area Speech Contest – 1st Place",
-    "description": "Our member won the Area-level Humorous Speech Contest.",
-    "date": "2024-10-15",
+    "title": "Area I03 Speech Contest",
+    "subtitle": "Area Level · 14 March 2026",
+    "description": "Our members shone at the Area I03 competition with wins across multiple contest categories.",
+    "highlights": [
+      "🥇 Paroksh Saxena — Winner, Evaluation Contest",
+      "🥈 Nidhi Arya — 1st Runner-up, Table Topics Contest",
+      "🥈 Nidhi Arya — 1st Runner-up, International Speech Contest",
+      "🥉 Anil Kumar — 2nd Runner-up, Humorous Speech Contest"
+    ],
+    "date": "2026-03-14",
     "icon": "trophy"
   },
   {
     "id": 2,
-    "category": "Education",
-    "title": "10 Pathways Completions in 2024",
-    "description": "Ten members completed their first Pathway milestone this year.",
-    "date": "2024-12-31",
-    "icon": "graduation"
+    "category": "Competition",
+    "title": "Division Level Speech Contest",
+    "subtitle": "Division · 18 April 2026",
+    "description": "Paroksh Saxena represented Area I03 at the Division-level Evaluation Contest.",
+    "highlights": [
+      "🎤 Paroksh Saxena — Represented Area I03, Evaluation Contest"
+    ],
+    "date": "2026-04-18",
+    "icon": "trophy"
   },
   {
     "id": 3,
+    "category": "Education",
+    "title": "Pathways Milestones — 2026",
+    "subtitle": "Level & Pathway Completions",
+    "description": "Members progressing through the Toastmasters Pathways curriculum.",
+    "highlights": [
+      "🎓 Pratyush — Pathway completion (Presentation Mastery) · 11 Apr",
+      "📘 Paroksh Saxena — Level 2 completion · 7 Feb",
+      "📗 Rashmita Jena — Level 1 completion · 21 Mar",
+      "📗 Manoj Kumar — Level 1 completion · 11 Apr",
+      "📗 Sajan — Level 1 completion · 25 Apr"
+    ],
+    "date": "2026-04-11",
+    "icon": "graduation"
+  },
+  {
+    "id": 4,
     "category": "Meeting",
-    "title": "International Speech Day",
-    "description": "Organised a special themed meeting with speakers from 5 countries.",
-    "date": "2024-06-01",
-    "icon": "globe"
+    "title": "Turncoat Table Topics",
+    "subtitle": "9 May 2026 · TMOD: Nidhi Arya",
+    "description": "A unique table topics format where speakers argue for and against the same topic within a single speech — putting adaptability and wit to the ultimate test.",
+    "highlights": [],
+    "date": "2026-05-09",
+    "tmod": "Nidhi Arya",
+    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/achievements/turncoat.jpg",
+    "icon": "star"
+  },
+  {
+    "id": 5,
+    "category": "Meeting",
+    "title": "Reverse Meeting",
+    "subtitle": "2 May 2026 · TMOD: Neha Modi",
+    "description": "Everything happened in reverse — evaluations came before speeches, answers before questions. Somehow it all came together beautifully.",
+    "highlights": [],
+    "date": "2026-05-02",
+    "tmod": "Neha Modi",
+    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/achievements/reverse-meeting.jpg",
+    "icon": "star"
+  },
+  {
+    "id": 6,
+    "category": "Meeting",
+    "title": "Speech Marathon",
+    "subtitle": "20 March 2026 · TMOD: Swati Jain",
+    "description": "Five prepared speeches in a single session — an intensive showcase of storytelling, persuasion, and presentation skills packed into one meeting.",
+    "highlights": [],
+    "date": "2026-03-20",
+    "tmod": "Swati Jain",
+    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/achievements/speech-marathon.jpg",
+    "icon": "star"
   }
 ]

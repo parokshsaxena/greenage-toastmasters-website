@@ -1,23 +1,68 @@
 [
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20250802-WA0007.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20250803-WA0013.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20250809-WA0014.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20250816-WA0028.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20250816-WA0029.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20251108-WA0021.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20251213-WA0033.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20260412-WA0009.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20260425-WA0019.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20260425-WA0028.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20251129_073158515.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260404_070907162.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260411_070737009.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260418_062937759.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260418_093616091.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260418_105507544.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260418_115550608.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260418_134416992.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260502_071011690.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260509_065010972.jpg" },
-  { "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260512_144140103.jpg" }
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20250802-WA0007.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20250803-WA0013.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20250809-WA0014.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20250816-WA0028.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20250816-WA0029.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20251108-WA0021.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20251213-WA0033.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20260412-WA0009.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20260425-WA0019.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/IMG-20260425-WA0028.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20251129_073158515.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260404_070907162.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260411_070737009.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260418_062937759.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260418_093616091.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260418_105507544.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260418_115550608.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260418_134416992.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260418_141013969.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260502_071011690.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260509_065010972.jpg"
+  },
+  {
+    "src": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/gallery/PXL_20260512_144140103.jpg"
+  }
 ]
