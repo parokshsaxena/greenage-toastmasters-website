@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Neha Modi",
+    "role": "President",
+    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/officers/president.jpg",
+    "bio": "An engineer with an MBA in Marketing, Neha spent five years as an HR professional before embracing life as a stay-at-home mom. A self-described introverted extrovert, she loves music, continuous learning, and meaningful conversations.",
+    "joined": "2023-08-01",
+    "email": ""
+  },
+  {
+    "id": 2,
+    "name": "Paroksh Saxena",
+    "role": "VP Education",
+    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/officers/vpe.jpg",
+    "bio": "A Computer Science graduate from IIT Bombay with stints at Myntra, Goldman Sachs, and now a startup called Mason. An outdoor sports enthusiast who has completed 10k, 21k, 50k, and 100k runs.",
+    "joined": "2025-07-02",
+    "email": ""
+  },
+  {
+    "id": 3,
+    "name": "Kambi Reddy",
+    "role": "VP Membership",
+    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/officers/vpm.jpg",
+    "photoFit": "contain",
+    "bio": "An IIT Bombay Mechanical Engineering graduate with over 15 years in the automotive industry, Kambi hails from a farming family in Andhra Pradesh. An avid reader who values family and community deeply.",
+    "joined": "2025-07-09",
+    "email": ""
+  },
+  {
+    "id": 4,
+    "name": "Manoj Kumar",
+    "role": "VP Public Relations",
+    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/officers/vppr.jpg",
+    "photoPosition": "top",
+    "bio": "A Computer Science engineer from Tamil Nadu, Manoj works as a Digital Marketing Manager at redBus. He moved to Bangalore after the pandemic and loves blending technology with marketing.",
+    "joined": "2024-12-09",
+    "email": ""
+  },
+  {
+    "id": 5,
+    "name": "Khushboo Agarwal",
+    "role": "Secretary",
+    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/officers/secretary.jpg",
+    "bio": "A Chartered Accountant leading corporate business strategy at Go Digit Insurance, Khushboo has lived in Ahmedabad, Mumbai, and now Bangalore. A solo traveller, writer, and painter who believes gratitude turns what we have into enough.",
+    "joined": "2023-06-30",
+    "email": ""
+  },
+  {
+    "id": 6,
+    "name": "Rohit Gupta",
+    "role": "Treasurer",
+    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/officers/treasurer.jpg",
+    "photoFit": "contain",
+    "bio": "A Data Scientist and VP at HSBC, Rohit is a CS engineer from Kanpur with a love for food, freestyle dance, and tennis. A proud father who is endlessly fun-loving and always up for a good conversation.",
+    "joined": "2023-01-18",
+    "email": ""
+  },
+  {
+    "id": 7,
+    "name": "Rashmita Jena",
+    "role": "Sergeant at Arms",
+    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/officers/saa.png",
+    "bio": "A professional with backgrounds in both education and IT, Rashmita is a proud mother of two and a passionate advocate for environmental sustainability. She is driven by a desire to make a positive impact on the world.",
+    "joined": "2025-01-19",
+    "email": ""
+  }
+]

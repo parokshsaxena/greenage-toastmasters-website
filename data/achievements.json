@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "category": "Competition",
+    "title": "Area Speech Contest – 1st Place",
+    "description": "Our member won the Area-level Humorous Speech Contest.",
+    "date": "2024-10-15",
+    "icon": "trophy"
+  },
+  {
+    "id": 2,
+    "category": "Education",
+    "title": "10 Pathways Completions in 2024",
+    "description": "Ten members completed their first Pathway milestone this year.",
+    "date": "2024-12-31",
+    "icon": "graduation"
+  },
+  {
+    "id": 3,
+    "category": "Meeting",
+    "title": "International Speech Day",
+    "description": "Organised a special themed meeting with speakers from 5 countries.",
+    "date": "2024-06-01",
+    "icon": "globe"
+  }
+]
