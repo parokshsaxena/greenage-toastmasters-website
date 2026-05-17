@@ -12,6 +12,7 @@ export default function Footer() {
         <div>
           <p className="font-semibold text-gray-900 mb-2">Quick Links</p>
           <ul className="space-y-1">
+            <li><Link href="/toastmasters" className="hover:text-rose-700">What is Toastmasters?</Link></li>
             <li><Link href="/officers" className="hover:text-rose-700">Club Officers</Link></li>
             <li><Link href="/about" className="hover:text-rose-700">About & Venue</Link></li>
             <li><Link href="/meetings" className="hover:text-rose-700">Meeting History</Link></li>
