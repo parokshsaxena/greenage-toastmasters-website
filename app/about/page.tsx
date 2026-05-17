@@ -66,6 +66,14 @@ export default function AboutPage() {
           <Separator className="mb-4" />
           <dl className="space-y-3 text-sm">
             <div><dt className="text-gray-500">Email</dt><dd><a href={`mailto:${clubInfo.social.email}`} className="text-rose-700 hover:underline">{clubInfo.social.email}</a></dd></div>
+            <div>
+              <dt className="text-gray-500">WhatsApp Community</dt>
+              <dd><a href={clubInfo.social.whatsapp} target="_blank" rel="noopener noreferrer" className="text-rose-700 hover:underline">Join for latest updates →</a></dd>
+            </div>
+            <div>
+              <dt className="text-gray-500">Instagram</dt>
+              <dd><a href={clubInfo.social.instagram} target="_blank" rel="noopener noreferrer" className="text-rose-700 hover:underline">@greenage.toastmasters.club →</a></dd>
+            </div>
             <div><dt className="text-gray-500">Club Number</dt><dd className="font-medium">{clubInfo.clubNumber}</dd></div>
             <div><dt className="text-gray-500">District / Division / Area</dt><dd className="font-medium">{clubInfo.district} · {clubInfo.division} · {clubInfo.area}</dd></div>
             <div><dt className="text-gray-500">Chartered</dt><dd className="font-medium">{clubInfo.charter}</dd></div>

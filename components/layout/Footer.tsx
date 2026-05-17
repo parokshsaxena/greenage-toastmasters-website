@@ -16,6 +16,7 @@ export default function Footer() {
             <li><Link href="/about" className="hover:text-rose-700">About & Venue</Link></li>
             <li><Link href="/meetings" className="hover:text-rose-700">Meeting History</Link></li>
             <li><Link href="/achievements" className="hover:text-rose-700">Achievements</Link></li>
+            <li><Link href="/events" className="hover:text-rose-700">Events</Link></li>
           </ul>
         </div>
         <div>

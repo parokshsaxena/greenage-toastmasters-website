@@ -1,0 +1,29 @@
+{
+  "events": [
+    {
+      "id": "speaking-wizards-4",
+      "title": "Speaking Wizards 4.0",
+      "tagline": "Say it like you mean it!",
+      "date": "2026-06-06",
+      "type": "Impromptu Speaking Contest",
+      "description": "After three hit seasons, Greenage Toastmasters brings back the madness with Speaking Wizards 4.0 — a 2-minute, totally random, totally impromptu speaking contest, open to anyone 18+.",
+      "funLines": [
+        "Struggle to reply to your spouse?",
+        "Mumble in front of your boss?",
+        "Rehearse award-winning speeches in the shower?"
+      ],
+      "highlights": [
+        "No prep. No pressure. Just surprise topics.",
+        "Open to all — members and guests welcome (18+)",
+        "2-minute impromptu speeches on random topics",
+        "Season 4 — after three successful editions!"
+      ],
+      "registrationLink": "https://forms.gle/ttpMdiCDa6prjFdFA",
+      "contacts": [
+        { "name": "Paroksh", "phone": "8884190588" },
+        { "name": "Khushboo", "phone": "9167214383" },
+        { "name": "Neha", "phone": "9999078774" }
+      ]
+    }
+  ]
+}
