@@ -1,10 +1,12 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import eventsData from "@/data/events.json";
 
 type Contact = { name: string; phone: string };
+type FaqItem = { q: string; a: string };
+type FaqCategory = { category: string; questions: FaqItem[] };
 
 type Event = {
   id: string;
@@ -17,6 +19,7 @@ type Event = {
   highlights?: string[];
   registrationLink?: string;
   contacts?: Contact[];
+  faqs?: FaqCategory[];
 };
 
 function daysLeft(dateStr: string): number {
@@ -35,8 +38,63 @@ function formatDate(dateStr: string): string {
   });
 }
 
+function FaqAccordion({ faqs }: { faqs: FaqCategory[] }) {
+  const [openIndex, setOpenIndex] = useState<string | null>(null);
+
+  const toggle = (key: string) => setOpenIndex(openIndex === key ? null : key);
+
+  return (
+    <div className="mt-10 border-t border-gray-100 pt-10">
+      <h3 className="text-xl font-bold text-gray-900 mb-6">
+        ❓ Frequently Asked Questions
+      </h3>
+      <div className="space-y-8">
+        {faqs.map((section) => (
+          <div key={section.category}>
+            <p className="text-sm font-semibold text-rose-600 uppercase tracking-wide mb-3">
+              {section.category}
+            </p>
+            <div className="space-y-2">
+              {section.questions.map((item, i) => {
+                const key = `${section.category}-${i}`;
+                const isOpen = openIndex === key;
+                return (
+                  <div
+                    key={key}
+                    className="rounded-xl border border-gray-100 overflow-hidden bg-gray-50"
+                  >
+                    <button
+                      onClick={() => toggle(key)}
+                      className="w-full flex items-start justify-between gap-4 px-5 py-4 text-left hover:bg-gray-100 transition-colors"
+                    >
+                      <span className="font-medium text-gray-800 text-sm leading-snug">
+                        {item.q}
+                      </span>
+                      <span className="flex-shrink-0 text-rose-500 font-bold text-lg leading-none mt-0.5">
+                        {isOpen ? "−" : "+"}
+                      </span>
+                    </button>
+                    {isOpen && (
+                      <div className="px-5 pb-5">
+                        <p className="text-gray-600 text-sm leading-relaxed border-t border-gray-100 pt-4">
+                          {item.a}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function UpcomingEventCard({ event }: { event: Event }) {
-  const days = useMemo(() => daysLeft(event.date), [event.date]);
+  const [days, setDays] = useState<number | null>(null);
+  useEffect(() => { setDays(daysLeft(event.date)); }, [event.date]);
 
   return (
     <div className="relative rounded-2xl overflow-hidden border border-rose-100 shadow-lg bg-white">
@@ -57,8 +115,10 @@ function UpcomingEventCard({ event }: { event: Event }) {
           </div>
 
           {/* Days left badge */}
-          <div className="flex-shrink-0 text-center bg-rose-600 text-white rounded-2xl px-5 py-3 shadow-md">
-            <p className="text-4xl font-extrabold leading-none">{days}</p>
+          <div className="flex-shrink-0 text-center bg-rose-600 text-white rounded-2xl px-5 py-3 shadow-md min-w-[80px]">
+            <p className="text-4xl font-extrabold leading-none">
+              {days ?? "—"}
+            </p>
             <p className="text-xs font-semibold tracking-wide uppercase mt-1 opacity-90">
               {days === 1 ? "Day Left" : "Days Left"}
             </p>
@@ -94,7 +154,7 @@ function UpcomingEventCard({ event }: { event: Event }) {
         {/* Highlights */}
         {event.highlights && event.highlights.length > 0 && (
           <div className="mb-8">
-            <h3 className="font-bold text-gray-900 mb-3 text-base uppercase tracking-wide text-sm">
+            <h3 className="font-bold text-gray-900 mb-3 uppercase tracking-wide text-sm">
               What to expect
             </h3>
             <ul className="grid sm:grid-cols-2 gap-2">
@@ -139,6 +199,11 @@ function UpcomingEventCard({ event }: { event: Event }) {
             </div>
           )}
         </div>
+
+        {/* FAQ */}
+        {event.faqs && event.faqs.length > 0 && (
+          <FaqAccordion faqs={event.faqs} />
+        )}
       </div>
     </div>
   );
@@ -167,9 +232,18 @@ function PastEventCard({ event }: { event: Event }) {
 
 export default function EventsPage() {
   const allEvents = eventsData.events as Event[];
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
 
-  const upcoming = allEvents.filter((e) => daysLeft(e.date) >= 0);
-  const past = allEvents.filter((e) => daysLeft(e.date) < 0);
+  // Defer date-based filtering to client to avoid SSR hydration mismatch
+  const upcoming = useMemo(
+    () => mounted ? allEvents.filter((e) => daysLeft(e.date) >= 0) : allEvents,
+    [allEvents, mounted]
+  );
+  const past = useMemo(
+    () => mounted ? allEvents.filter((e) => daysLeft(e.date) < 0) : [],
+    [allEvents, mounted]
+  );
 
   return (
     <>

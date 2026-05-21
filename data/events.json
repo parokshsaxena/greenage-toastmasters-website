@@ -8,9 +8,9 @@
       "type": "Impromptu Speaking Contest",
       "description": "After three hit seasons, Greenage Toastmasters brings back the madness with Speaking Wizards 4.0 — a 2-minute, totally random, totally impromptu speaking contest, open to anyone 18+.",
       "funLines": [
-        "Struggle to reply to your spouse?",
-        "Mumble in front of your boss?",
-        "Rehearse award-winning speeches in the shower?"
+        "Freeze up or stay silent during important work meetings?",
+        "Feel your heart race the second you step onto a stage?",
+        "Struggle to clearly express the great ideas in your head?"
       ],
       "highlights": [
         "No prep. No pressure. Just surprise topics.",
@@ -18,11 +18,64 @@
         "2-minute impromptu speeches on random topics",
         "Season 4 — after three successful editions!"
       ],
-      "registrationLink": "https://forms.gle/ttpMdiCDa6prjFdFA",
+      "registrationLink": "https://forms.gle/KxU5jYSDZUHgFrrn9",
       "contacts": [
         { "name": "Paroksh", "phone": "8884190588" },
         { "name": "Khushboo", "phone": "9167214383" },
         { "name": "Neha", "phone": "9999078774" }
+      ],
+      "faqs": [
+        {
+          "category": "🏫 About Toastmasters & The Organizers",
+          "questions": [
+            {
+              "q": "What is Toastmasters all about?",
+              "a": "Toastmasters International is a worldwide non-profit educational organization that empowers individuals to become more effective communicators and leaders. It spans a global network of over 14,000 clubs across more than 145 countries. Greenage Toastmasters is one such proud, vibrant community club helping individuals find their voice in a safe space."
+            },
+            {
+              "q": "Are people from outside the Salarpuria Greenage society allowed to participate?",
+              "a": "Yes, absolutely! While our club is based out of Salarpuria Greenage, this event is completely open to everyone aged 18 and above. We love welcoming fresh talent and guests from all over the city!"
+            },
+            {
+              "q": "I am not a resident. How will I get entry into the society on the event day?",
+              "a": "We've got you covered! Once you complete your registration via the Google Form, our team will coordinate your entry. We will pre-register your details and help issue a society gate pass so you can walk into Cedar Hall seamlessly on June 6th."
+            }
+          ]
+        },
+        {
+          "category": "🎙 About the Event & Preparation",
+          "questions": [
+            {
+              "q": "I am an absolute beginner and terrified of public speaking. Can I still join?",
+              "a": "Yes! In fact, this event is made exactly for you. Greenage Toastmasters is built on providing a safe, supportive, and zero-judgment environment. Every experienced speaker you see today started exactly where you are right now. This contest is a fun, low-pressure playground designed to help you take that very first step."
+            },
+            {
+              "q": "What do I need to prepare before coming?",
+              "a": "Absolutely nothing! Speaking Wizards 4.0 is a 2-minute, completely impromptu (Table Topics) speaking event. You don't need to write a speech or memorize lines. You will be given a random, everyday topic on the spot, and you just have to speak your mind. No prep, no pressure!"
+            },
+            {
+              "q": "What if I freeze or get incredibly nervous on stage?",
+              "a": "Guess what? Everyone gets nervous — even seasoned speakers! The secret is learning to manage that nervous energy, and that only comes with practice. If you freeze, our highly encouraging audience will cheer you on until you find your stride. There are no mistakes here, only learning experiences."
+            }
+          ]
+        },
+        {
+          "category": "📝 Registration & Logistics",
+          "questions": [
+            {
+              "q": "Is there a registration fee?",
+              "a": "Yes, there is a nominal fee of ₹50. You can easily pay this via UPI/GPay/PhonePe to 8884190588 before submitting the registration form."
+            },
+            {
+              "q": "What should I bring on the day of the event?",
+              "a": "Just bring your enthusiasm, a smartphone (to show your registration confirmation if needed), and a willingness to step out of your comfort zone!"
+            },
+            {
+              "q": "Who can I contact if I have more questions or need help navigating to the venue?",
+              "a": "Feel free to reach out to our friendly organizing team — Paroksh: 8884190588, Khushboo: 9167214383, Neha: 9999078774. We are happy to help!"
+            }
+          ]
+        }
       ]
     }
   ]
