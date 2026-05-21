@@ -22,7 +22,7 @@ export default function Footer() {
         </div>
         <div>
           <p className="font-semibold text-gray-900 mb-2">Contact</p>
-          <a href="mailto:greenage.toastmasters@gmail.com" className="hover:text-rose-700">greenage.toastmasters@gmail.com</a>
+          <a href="mailto:greenage.toastmastersclub@gmail.com" className="hover:text-rose-700">greenage.toastmastersclub@gmail.com</a>
           <p className="mt-3 text-xs text-gray-400">
             © {new Date().getFullYear()} Greenage Toastmasters Club. All rights reserved.
           </p>
