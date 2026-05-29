@@ -13,6 +13,7 @@ type Event = {
   title: string;
   tagline: string;
   date: string;
+  time?: string;
   type: string;
   description: string;
   funLines?: string[];
@@ -125,11 +126,20 @@ function UpcomingEventCard({ event }: { event: Event }) {
           </div>
         </div>
 
-        {/* Date */}
-        <div className="flex items-center gap-2 text-gray-600 mb-6">
-          <span className="text-lg">📅</span>
-          <span className="font-semibold text-gray-800">{formatDate(event.date)}</span>
-        </div>
+        
+        {/* Date & Time */}
+<div className="flex flex-wrap items-center gap-4 text-gray-600 mb-6">
+  <div className="flex items-center gap-2">
+    <span className="text-lg">📅</span>
+    <span className="font-semibold text-gray-800">{formatDate(event.date)}</span>
+  </div>
+  {event.time && (
+    <div className="flex items-center gap-2">
+      <span className="text-lg">🕙</span>
+      <span className="font-semibold text-gray-800">{event.time}</span>
+    </div>
+  )}
+</div>
 
         {/* Fun lines */}
         {event.funLines && event.funLines.length > 0 && (
