@@ -1,40 +1,39 @@
 [
   {
     "id": 1,
-    "name": "Neha Modi",
+    "name": "Paroksh Saxena",
     "role": "President",
     "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/officers/president.jpg",
-    "bio": "An engineer with an MBA in Marketing, Neha spent five years as an HR professional before embracing life as a stay-at-home mom. A self-described introverted extrovert, she loves music, continuous learning, and meaningful conversations.",
-    "joined": "2023-08-01",
-    "email": ""
-  },
-  {
-    "id": 2,
-    "name": "Paroksh Saxena",
-    "role": "VP Education",
-    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/officers/vpe.jpg",
     "bio": "A Computer Science graduate from IIT Bombay with stints at Myntra, Goldman Sachs, and now a startup called Mason. An outdoor sports enthusiast who has completed 10k, 21k, 50k, and 100k runs.",
     "joined": "2025-07-02",
     "email": ""
   },
   {
+    "id": 2,
+    "name": "Manoj Kumar",
+    "role": "VP Education",
+    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/officers/vpe.jpg",
+    "photoPosition": "top",
+    "bio": "A Computer Science engineer from Tamil Nadu, Manoj works as a Digital Marketing Manager at redBus. He moved to Bangalore after the pandemic and loves blending technology with marketing.",
+    "joined": "2024-12-09",
+    "email": ""
+  },
+  {
     "id": 3,
-    "name": "Kambi Reddy",
+    "name": "Shweta Jain",
     "role": "VP Membership",
     "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/officers/vpm.jpg",
-    "photoFit": "contain",
-    "bio": "An IIT Bombay Mechanical Engineering graduate with over 15 years in the automotive industry, Kambi hails from a farming family in Andhra Pradesh. An avid reader who values family and community deeply.",
-    "joined": "2025-07-09",
+    "bio": "Am experienced introvert with an MBA is quietness :) Have another MBA in Finance, working for last 16 years now with HCL as operations head. Have a lovely family of two notoriously naughty kids and a caring husband. I love to read and write and everything else thats into creative side.",
+    "joined": "2023-01-21",
     "email": ""
   },
   {
     "id": 4,
-    "name": "Manoj Kumar",
+    "name": "Richa Patel",
     "role": "VP Public Relations",
-    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/officers/vppr.jpg",
-    "photoPosition": "top",
-    "bio": "A Computer Science engineer from Tamil Nadu, Manoj works as a Digital Marketing Manager at redBus. He moved to Bangalore after the pandemic and loves blending technology with marketing.",
-    "joined": "2024-12-09",
+    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/officers/vppr.jpg",    
+    "bio": "I am Richa, originally from M.P, currently working as a Product Manager at Gojek with 7+ years of experience, and an IIT Kharagpur alum. I find joy in trying new activities. I enjoy staying active with running, weight training, and badminton. In my free time, I love to paint, read, watch movies, play board games, jam to music, and just have a good time.",
+    "joined": "2026-04-21",
     "email": ""
   },
   {
@@ -58,11 +57,11 @@
   },
   {
     "id": 7,
-    "name": "Rashmita Jena",
+    "name": "Anup Sahoo",
     "role": "Sergeant at Arms",
-    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/officers/saa.png",
-    "bio": "A professional with backgrounds in both education and IT, Rashmita is a proud mother of two and a passionate advocate for environmental sustainability. She is driven by a desire to make a positive impact on the world.",
-    "joined": "2025-01-19",
+    "photo": "https://res.cloudinary.com/dccdfqobh/image/upload/f_auto,q_auto/Greenage-Toastmasters-Website/officers/saa.jpg",
+    "bio": "I am Anup Sahoo, originally from Odisha and now living in Bangalore. I am an engineer with a Master’s from the University of Liverpool, and after nine years at Sony PlayStation, I now lead the AI practice at Valtech India for a luxury retail account. At home, my world is my family and my son Sacheet, with whom I love building small tech projects on weekends. Outside work, I enjoy playing with my Raspberry Pi, running my small AI side practice, and going for treks whenever I get the chance.",
+    "joined": "2026-05-16",
     "email": ""
   }
 ]
