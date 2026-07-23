@@ -251,9 +251,15 @@ function UpcomingEventCard({ event }: { event: Event }) {
 }
 
 function PastEventCard({ event }: { event: Event }) {
+  const [expanded, setExpanded] = useState(false);
+
   return (
-    <div className="rounded-xl border border-gray-100 bg-white p-6 shadow-sm hover:shadow-md transition-shadow">
-      <div className="flex items-start justify-between gap-4">
+    <div className="rounded-xl border border-gray-100 bg-white shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+      {/* Clickable header */}
+      <button
+        onClick={() => setExpanded(!expanded)}
+        className="w-full flex items-start justify-between gap-4 p-6 text-left hover:bg-gray-50 transition-colors"
+      >
         <div>
           <span className="inline-block mb-2 px-2.5 py-0.5 rounded-full bg-gray-100 text-gray-500 text-xs font-semibold tracking-wide uppercase">
             {event.type}
@@ -263,10 +269,80 @@ function PastEventCard({ event }: { event: Event }) {
             <p className="text-gray-500 text-sm mt-0.5">{event.tagline}</p>
           )}
         </div>
-        <div className="flex-shrink-0 text-right text-sm text-gray-400">
-          <span className="block font-medium text-gray-600">{formatDate(event.date)}</span>
+        <div className="flex-shrink-0 text-right">
+          <span className="block font-medium text-gray-600 text-sm">{formatDate(event.date)}</span>
+          <span className="text-rose-400 text-lg mt-2 block">{expanded ? "▲" : "▼"}</span>
         </div>
-      </div>
+      </button>
+
+      {/* Expanded details */}
+      {expanded && (
+        <div className="px-6 pb-7 border-t border-gray-50">
+          {/* Date / time / venue */}
+          <div className="flex flex-col gap-2 text-sm text-gray-600 mt-5 mb-5">
+            <div className="flex items-center gap-2">
+              <span>📅</span>
+              <span className="font-medium text-gray-800">{formatDate(event.date)}</span>
+            </div>
+            {event.time && (
+              <div className="flex items-center gap-2">
+                <span>🕙</span>
+                <span className="font-medium text-gray-800">{event.time}</span>
+              </div>
+            )}
+            {event.venue && (
+              <div className="flex items-center gap-2">
+                <span>📍</span>
+                <a
+                  href={event.venue.mapLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-rose-600 hover:underline"
+                >
+                  {event.venue.name} →
+                </a>
+              </div>
+            )}
+          </div>
+
+          {/* Chief guest */}
+          {event.chiefGuest && (
+            <div className="mb-5 flex items-start gap-4 bg-gray-50 rounded-xl border border-gray-100 px-5 py-4">
+              <div className="flex-shrink-0 w-9 h-9 rounded-full bg-rose-100 flex items-center justify-center text-rose-700 text-sm">⭐</div>
+              <div>
+                <p className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-0.5">Chief Guest</p>
+                <p className="font-bold text-gray-900">{event.chiefGuest.name}</p>
+                <p className="text-sm text-gray-500">{event.chiefGuest.title}</p>
+              </div>
+            </div>
+          )}
+
+          {/* Description */}
+          {event.description && (
+            <p className="text-gray-600 text-sm leading-relaxed mb-5">{event.description}</p>
+          )}
+
+          {/* Highlights */}
+          {event.highlights && event.highlights.length > 0 && (
+            <div className="mb-5">
+              <h4 className="font-bold text-gray-900 mb-3 uppercase tracking-wide text-xs">Highlights</h4>
+              <ul className="grid sm:grid-cols-2 gap-2">
+                {event.highlights.map((h) => (
+                  <li key={h} className="flex items-start gap-2 text-gray-700 text-sm">
+                    <span className="text-rose-500 mt-0.5 flex-shrink-0">✓</span>
+                    {h}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {/* FAQ */}
+          {event.faqs && event.faqs.length > 0 && (
+            <FaqAccordion faqs={event.faqs} />
+          )}
+        </div>
+      )}
     </div>
   );
 }
