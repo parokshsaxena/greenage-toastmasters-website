@@ -21,6 +21,8 @@ type Event = {
   registrationLink?: string;
   contacts?: Contact[];
   faqs?: FaqCategory[];
+  chiefGuest?: { name: string; title: string };
+  venue?: { name: string; mapLink: string };
 };
 
 function daysLeft(dateStr: string): number {
@@ -127,19 +129,48 @@ function UpcomingEventCard({ event }: { event: Event }) {
         </div>
 
         
-        {/* Date & Time */}
-<div className="flex flex-wrap items-center gap-4 text-gray-600 mb-6">
-  <div className="flex items-center gap-2">
-    <span className="text-lg">📅</span>
-    <span className="font-semibold text-gray-800">{formatDate(event.date)}</span>
-  </div>
-  {event.time && (
-    <div className="flex items-center gap-2">
-      <span className="text-lg">🕙</span>
-      <span className="font-semibold text-gray-800">{event.time}</span>
-    </div>
-  )}
-</div>
+        {/* Date, Time & Venue */}
+        <div className="flex flex-col gap-2 text-gray-600 mb-6">
+          <div className="flex flex-wrap items-center gap-4">
+            <div className="flex items-center gap-2">
+              <span className="text-lg">📅</span>
+              <span className="font-semibold text-gray-800">{formatDate(event.date)}</span>
+            </div>
+            {event.time && (
+              <div className="flex items-center gap-2">
+                <span className="text-lg">🕙</span>
+                <span className="font-semibold text-gray-800">{event.time}</span>
+              </div>
+            )}
+          </div>
+          {event.venue && (
+            <div className="flex items-center gap-2">
+              <span className="text-lg">📍</span>
+              <a
+                href={event.venue.mapLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-rose-600 hover:underline"
+              >
+                {event.venue.name} →
+              </a>
+            </div>
+          )}
+        </div>
+
+        {/* Chief Guest */}
+        {event.chiefGuest && (
+          <div className="mb-6 flex items-start gap-4 bg-gray-50 rounded-xl border border-gray-100 px-5 py-4">
+            <div className="flex-shrink-0 w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center text-rose-700 font-bold text-sm">
+              ⭐
+            </div>
+            <div>
+              <p className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-0.5">Chief Guest</p>
+              <p className="font-bold text-gray-900">{event.chiefGuest.name}</p>
+              <p className="text-sm text-gray-500">{event.chiefGuest.title}</p>
+            </div>
+          </div>
+        )}
 
         {/* Fun lines */}
         {event.funLines && event.funLines.length > 0 && (

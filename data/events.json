@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "id": "officer-installation-july-2026",
+      "title": "New Officer Installation Ceremony",
+      "tagline": "A New Chapter Begins — July 2026 to December 2026",
+      "date": "2026-07-26",
+      "time": "11:30 AM – 12:30 PM, followed by Gala Lunch",
+      "type": "Installation Ceremony",
+      "description": "As we step into a brand new term, Greenage Toastmasters warmly invites you to our Officer Installation Ceremony — a milestone moment where we formally welcome the leaders who will guide our club through July 2026 to December 2026. This is more than a handover of roles; it is a celebration of commitment, community, and the spirit of growth that defines everything we do at Greenage.",
+      "highlights": [
+        "Formal installation of new club officers for the July–December 2026 term",
+        "Chief Guest address by Area Director Charvi Dhoot",
+        "Reflections from outgoing officers and vision from incoming ones",
+        "Celebration gala lunch following the ceremony",
+        "Open to all members, guests, and well-wishers"
+      ],
+      "chiefGuest": {
+        "name": "Charvi Dhoot",
+        "title": "Area Director, Area E4 · Ex-President, HSR Toastmasters"
+      },
+      "venue": {
+        "name": "Juniper Party Hall, Salarpuria Greenage, Bommanahalli",
+        "mapLink": "https://maps.app.goo.gl/NnianNgqbRTqXQ1U6"
+      }
+    },
+    {
       "id": "speaking-wizards-4",
       "title": "Speaking Wizards 4.0",
       "tagline": "Say it like you mean it!",
