@@ -75,8 +75,8 @@ export default function FeesPage() {
                 <p className="text-sm text-gray-500 mt-0.5">Due at the start of each term (Apr & Oct)</p>
               </div>
               <div className="text-right flex-shrink-0">
-                <p className="text-2xl font-extrabold text-gray-900">$60</p>
-                <p className="text-xs text-gray-400 mt-0.5">$10 / month · + 18% GST</p>
+                <p className="text-2xl font-extrabold text-gray-900">$72</p>
+                <p className="text-xs text-gray-400 mt-0.5">$12 / month · + 18% GST</p>
               </div>
             </div>
           </div>
@@ -132,11 +132,11 @@ export default function FeesPage() {
           <div className="mt-4 grid sm:grid-cols-2 gap-3 text-sm">
             <div className="bg-white rounded-xl border border-rose-100 px-5 py-4">
               <p className="text-gray-500 mb-1">First term total (one-time)</p>
-              <p className="font-bold text-gray-900">$25 + $60 (+ 18% GST each) &nbsp;+&nbsp; ₹600 + ₹1,800</p>
+              <p className="font-bold text-gray-900">$25 + $72 (+ 18% GST each) &nbsp;+&nbsp; ₹600 + ₹1,800</p>
             </div>
             <div className="bg-white rounded-xl border border-rose-100 px-5 py-4">
               <p className="text-gray-500 mb-1">Every subsequent term</p>
-              <p className="font-bold text-gray-900">$60 (+ 18% GST) &nbsp;+&nbsp; ₹1,800</p>
+              <p className="font-bold text-gray-900">$72 (+ 18% GST) &nbsp;+&nbsp; ₹1,800</p>
             </div>
           </div>
         </div>
